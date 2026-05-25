@@ -1,0 +1,15 @@
+#arttop {
+    display: flex;
+}
+
+.art {
+    background-color: #384050;
+    color: #f1f8fc ;
+    margin-inline-start: 50px;
+    margin-inline-end: 50px;
+    padding: 10px;
+    width: 400px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #82b864;
+}

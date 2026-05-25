@@ -1,0 +1,11 @@
+<h1>Les différents artisans de {{artId}}</h1>
+<div id="arttop">
+    <ng-container *ngFor="let donne of Donnee">
+        <div *ngIf="donne.category == artId" [routerLink]="['/detail',donne.id]" class="art">
+            {{donne.name}}<br />
+            {{donne.note}}<br />
+            {{donne.specialty}}<br />
+            {{donne.location}}
+        </div>
+    </ng-container>
+</div>

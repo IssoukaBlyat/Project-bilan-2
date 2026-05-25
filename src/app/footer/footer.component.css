@@ -1,0 +1,14 @@
+.foot{
+    display: flex;
+    background-color: #00497c;
+    color: #f1f8fc;
+}
+
+.foot > *{
+    margin: auto;
+}
+
+img {
+    width: 20px;
+    margin: 5px;
+}

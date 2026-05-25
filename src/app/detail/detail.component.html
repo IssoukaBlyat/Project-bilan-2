@@ -1,0 +1,37 @@
+<div id="artisannom">
+    <h1>{{donne.name}}</h1>
+    <p>{{donne.note}} /5 étoiles</p>
+    <p>Métier : {{donne.specialty}}</p>
+    <p>Habite à : {{donne.location}}</p>
+</div>
+<br />
+<div>
+    <h2>À propos</h2>
+    <p>{{donne.about}}</p>
+</div>
+<br />
+<div>
+    <form action="" method="get" class="Formulaire">
+        <div id="formtitle">
+            <label>Contacte cet artisan</label>
+        </div>
+        <br />
+        <div>
+            <div>
+                <label>Nom:</label>
+                <input type="text" />
+            </div>
+            <div>
+                <label>Objet:</label>
+                <input type="text" />
+            </div>
+            <div>
+                <label>Message:</label>
+                <input type="text" />
+            </div>
+            <input type="submit" value="Envoyer">
+        </div>
+    </form>
+    <br />
+    <h3><a href="{{donne.website}}">Site de l'artisan</a></h3>
+</div>

@@ -1,0 +1,11 @@
+<div class="head">
+    <img src="Logo.png" routerLink="/"/>
+    <a routerLink="/liste/Bâtiment">Bâtiment</a>
+    <a routerLink="/liste/Services">Service</a>
+    <a routerLink="/liste/Fabrication">Fabrication</a>
+    <a routerLink="/liste/Alimentation">Alimentation</a>
+    <div>
+        <input type="search" id="research" name="recherche" #filtre/>
+        <button [routerLink]="['/liste',filtre.value]">Rechercher</button>
+    </div>
+</div>

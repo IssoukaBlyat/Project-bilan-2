@@ -1,0 +1,21 @@
+<div>
+    <h1>Comment trouver son artisan ?</h1>
+    <ol>
+        <li>Choisir la catégorie d'artisan dans le menu</li>
+        <li>Choisir son artisan</li>
+        <li>Le contacter via le formulaire de contact</li>
+        <li>Une réponse sera apportée sous 48h</li>
+    </ol>
+</div>
+<br />
+<h2>Les trois artisans du mois:</h2>
+<div id="arttop">
+    <ng-container *ngFor="let donne of Donnee">
+        <div *ngIf="donne.top == true" [routerLink]="['/detail',donne.id]" class="art">
+            {{donne.name}}<br />
+            {{donne.note}}<br />
+            {{donne.specialty}}<br />
+            {{donne.location}}
+        </div>
+    </ng-container>
+</div> <br />
